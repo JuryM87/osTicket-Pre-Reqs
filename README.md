@@ -50,8 +50,49 @@ Start Menu > Windows Feature > Type- Internet Information Services > Click- Worl
 
 <p>
 <img src="https://i.imgur.com/lPTyHjZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
 </p>
 <p>
 <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> Now it's time to download and install the necessary files for osTicket and Heidi SQL
 </p>
 <br />
+<img src="https://i.imgur.com/8lJoTkk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Begin with Installation Files (Click on the hyperlink above for Installation Files)
+  
+- Download and Install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- Download and Install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Create a directory C:\PHP
+  
+<img src="https://i.imgur.com/WNmZkaW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+- From the Installation Files, download and install VC_redist.x86.exe.
+- From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+  
+<img src="https://i.imgur.com/SWjNLJ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Open IIS Manager as an Admin User, Register the PHP using the PHP folder
+
+<img src="https://i.imgur.com/71M6tbj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Next download osTicket, extract the content to the folder c:\inetpub\wwwroot. Rename the folder "Upload" to "osTicket".
+<img src="https://i.imgur.com/ATeTD8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+- In IIS Manager, open PHP Manager. We need to enable three extensions by the name of 
+- php_imap.dll 
+- php_intl.dll 
+- php_opcache.dll 
+- Reload IIS Manager and Click "Sites > Default > osTickets. On the right side, click " Browse *:80" to open the osTicket web-interface.
+- Make it a habit to Click-Restart in IIS to relect all changes made
+
+<img src="https://i.imgur.com/lGIssF4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Perfect. Now lets step back and return to c:\inetpub\wwwroot\osticket\include, here look for the file named "ost-sampleconfig.php" We will rename it to "ost-config.php". Once that is completed, right click the file, open properties, under the secruity tab, "Disable Inheritance". Then Remove all new permissions, and give everyone permissions.
+
+<img src="https://i.imgur.com/lAjli0e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
