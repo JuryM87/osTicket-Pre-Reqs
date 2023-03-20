@@ -115,7 +115,7 @@ Continue Setting up osticket in the browser
 
 - MySQL Database: osTicket
 - MySQL Username: root
-- MySQL Password: Password1
+- MySQL Password: (Password you created)
 - Click “Install Now!”
 
 <img src="https://i.imgur.com/NxS4nvK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
