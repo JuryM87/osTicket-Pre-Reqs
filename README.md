@@ -88,11 +88,35 @@ Begin with Installation Files (Click on the hyperlink above for Installation Fil
 - php_imap.dll 
 - php_intl.dll 
 - php_opcache.dll 
+
+<img src="https://i.imgur.com/DJCmF9T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 - Reload IIS Manager and Click "Sites > Default > osTickets. On the right side, click " Browse *:80" to open the osTicket web-interface.
 - Make it a habit to Click-Restart in IIS to relect all changes made
 
 <img src="https://i.imgur.com/lGIssF4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Perfect. Now lets step back and return to c:\inetpub\wwwroot\osticket\include, here look for the file named "ost-sampleconfig.php" We will rename it to "ost-config.php". Once that is completed, right click the file, open properties, under the secruity tab, "Disable Inheritance". Then Remove all new permissions, and give everyone permissions.
+Awesome, now lets return to c:\inetpub\wwwroot\osticket\include, here look for the file named "ost-sampleconfig.php" We will rename it to "ost-config.php". 
+- Once that is completed, right click the file, open properties, under the secruity tab, "Disable Inheritance" 
+- Then Remove all new permissions, and give everyone permissions.
 
 <img src="https://i.imgur.com/lAjli0e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Download and Install HeidiSQL From the Installation Files
+- Open Heidi SQL
+- Create a new session, root/Password (That you created)
+- Connect to the session
+- Create a database called “osTicket”
+We are Almost There! Let's return to osTicket in the web-interface. Name the Helpdesk to what makes you content. Anything will do. Just remember your login credentials.
+
+<img src="https://i.imgur.com/5u2Qt08.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Continue Setting up osticket in the browser
+
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: Password1
+- Click “Install Now!”
+
+<img src="https://i.imgur.com/NxS4nvK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dF9uk1p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
