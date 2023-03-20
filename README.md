@@ -5,14 +5,17 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+<h2>What is osTicket?</h2>
+It's a widely used trusted open source ticketing system. It manages, organizes, and archive all support requests and response in one place while providing your customer with great communication and accountability.
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure Virtual Machine
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Heidi SQL
 
-<h2>Environments Used </h2>
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
