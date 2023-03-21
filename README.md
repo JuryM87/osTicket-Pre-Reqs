@@ -120,3 +120,5 @@ Continue Setting up osticket in the browser
 
 <img src="https://i.imgur.com/NxS4nvK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/dF9uk1p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+On the next tutorial we will create configurations on osTicket with the Post Installation Setup
