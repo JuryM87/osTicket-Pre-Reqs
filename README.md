@@ -71,9 +71,9 @@ Begin with Installation Files (Click on the hyperlink above for Installation Fil
 - From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 - From the Installation Files, download and install VC_redist.x86.exe.
 - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-  Guide for SQL Installation 
+ 
   
-  (Select theses options once it's given to you)
+Guide for MySQL Installation (Select theses options once it's given to you)
   - Typical Setup
   - Launch Configuration Wizard (After Install)
   - Standard Configuration
